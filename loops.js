@@ -7,9 +7,9 @@ function forLoop(array) {
   return array;
 }
 function whileLoop(n) {
-  n = Math.random() > 0
-  while(n) {
-    console.log(n)
+  var countdown = n;
+  while(countdown > 0) {
+    console.log(--countdown);
   }
   return 'done';
 }
